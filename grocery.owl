@@ -85,4 +85,6 @@
 
  Declaration(Class(:Continent)) Declaration(NamedIndividual(:Europe)) ClassAssertion(:Continent :Europe) Declaration(NamedIndividual(:NorthAmerica)) ClassAssertion(:Continent :NorthAmerica) ObjectPropertyAssertion(:isLocatedIn :GreatBritain :Europe) ObjectPropertyAssertion(:isLocatedIn :Belgium :Europe) ObjectPropertyAssertion(:isLocatedIn :Canada :NorthAmerica)
 
- TransitiveObjectProperty(:isLocatedIn)  )
+ TransitiveObjectProperty(:isLocatedIn)
+
+ SubObjectPropertyOf(ObjectPropertyChain(:isMadeIn :isLocatedIn) :isMadeIn)  )
