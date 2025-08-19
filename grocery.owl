@@ -73,4 +73,6 @@
 
  Declaration(Class(:SemolinaShortbread)) SubClassOf(:SemolinaShortbread :Shortbread) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Butter)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteSugar)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteFlour)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Semolina)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Salt))
 
- Declaration(Class(:Store)) Declaration(Class(:HardwareStore)) Declaration(NamedIndividual(:WholeFoodsPaloAlto)) SubClassOf(:HardwareStore :Store) ClassAssertion(:Store :WholeFoodsPaloAlto)  )
+ Declaration(Class(:Store)) Declaration(Class(:HardwareStore)) Declaration(NamedIndividual(:WholeFoodsPaloAlto)) SubClassOf(:HardwareStore :Store) ClassAssertion(:Store :WholeFoodsPaloAlto)
+
+ Declaration(ObjectProperty(:isMadeIn)) Declaration(Class(:Country)) Declaration(NamedIndividual(:Belgium)) ClassAssertion(:Country :Belgium) SubClassOf(:LotusBiscoffCookiesItem ObjectHasValue(:isMadeIn :Belgium))  )
