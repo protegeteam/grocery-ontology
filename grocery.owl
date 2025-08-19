@@ -63,4 +63,6 @@
 
  Declaration(Class(:GroceryItemThatContainsSoy)) EquivalentClasses(:GroceryItemThatContainsSoy ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:contains :Soy)))
 
- Declaration(Class(:GroceryItemThatContainsWheat)) EquivalentClasses(:GroceryItemThatContainsWheat ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:contains :Wheat)))  )
+ Declaration(Class(:GroceryItemThatContainsWheat)) EquivalentClasses(:GroceryItemThatContainsWheat ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:contains :Wheat)))
+
+ Declaration(Class(:GroceryItemThatContainsDairyProducts)) EquivalentClasses(:GroceryItemThatContainsDairyProducts ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:contains :DairyProduct)))  )
