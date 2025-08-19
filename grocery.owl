@@ -79,4 +79,6 @@
 
  Declaration(NamedIndividual(:Canada)) ClassAssertion(:Country :Canada) SubClassOf(:MallomarsCookiesPureChocolateItem ObjectHasValue(:isMadeIn :Canada))
 
- Declaration(NamedIndividual(:Aberlour)) SubClassOf(:WalkersShortbreadItem ObjectHasValue(:isMadeIn :Aberlour))  )
+ Declaration(NamedIndividual(:Aberlour)) SubClassOf(:WalkersShortbreadItem ObjectHasValue(:isMadeIn :Aberlour))
+
+ Declaration(NamedIndividual(:Speyside)) Declaration(NamedIndividual(:Scotland)) ClassAssertion(:Country :Scotland) Declaration(ObjectProperty(:isLocatedIn)) ObjectPropertyAssertion(:isLocatedIn :Aberlour :Speyside) ObjectPropertyAssertion(:isLocatedIn :Speyside :Scotland) Declaration(NamedIndividual(:GreatBritain)) ObjectPropertyAssertion(:isLocatedIn :Scotland :GreatBritain)  )
