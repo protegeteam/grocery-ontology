@@ -41,4 +41,6 @@
 
  SubObjectPropertyOf(:hasIngredient :contains)
 
- SubClassOf(:WheatFlour ObjectSomeValuesFrom(:contains :Wheat)) SubClassOf(:Wheat ObjectSomeValuesFrom(:contains :Gluten))  )
+ SubClassOf(:WheatFlour ObjectSomeValuesFrom(:contains :Wheat)) SubClassOf(:Wheat ObjectSomeValuesFrom(:contains :Gluten))
+
+ TransitiveObjectProperty(:contains)  )
