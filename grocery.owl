@@ -107,4 +107,6 @@
 
  EquivalentClasses(:GroceryItemThatIsHighInSodium ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:hasNutritionalInfo DataSomeValuesFrom(:hasSodium DatatypeRestriction(xsd:decimal xsd:minInclusive "480.0"^^xsd:decimal)))))
 
- FunctionalDataProperty(:hasTotalFat) FunctionalDataProperty(:hasSaturatedFat) FunctionalDataProperty(:hasSodium) FunctionalDataProperty(:hasSugar) FunctionalObjectProperty(:hasNutritionalInfo)  )
+ FunctionalDataProperty(:hasTotalFat) FunctionalDataProperty(:hasSaturatedFat) FunctionalDataProperty(:hasSodium) FunctionalDataProperty(:hasSugar) FunctionalObjectProperty(:hasNutritionalInfo)
+
+ SubClassOf(:WalkersShortbread ObjectAllValuesFrom(:contains ObjectComplementOf(:Soy)))  )
