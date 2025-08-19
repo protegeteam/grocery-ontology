@@ -15,4 +15,6 @@
 
  AnnotationAssertion(rdfs:label :SodiumBicarbonate "Bicarbonato de Sodio"@es) AnnotationAssertion(rdfs:label :SodiumBicarbonate "Natriumbicarbonat"@de)
 
- AnnotationAssertion(rdfs:seeAlso :SodiumBicarbonate <https://en.wikipedia.org/wiki/Sodium_bicarbonate>)  )
+ AnnotationAssertion(rdfs:seeAlso :SodiumBicarbonate <https://en.wikipedia.org/wiki/Sodium_bicarbonate>)
+
+ Declaration(AnnotationProperty(skos:altLabel)) AnnotationAssertion(skos:altLabel :SodiumBicarbonate "Baking Soda"@en)  )
