@@ -39,4 +39,6 @@
 
  Declaration(ObjectProperty(:contains)) SubObjectPropertyOf(:containsFoodStuff :contains)
 
- SubObjectPropertyOf(:hasIngredient :contains)  )
+ SubObjectPropertyOf(:hasIngredient :contains)
+
+ SubClassOf(:WheatFlour ObjectSomeValuesFrom(:contains :Wheat)) SubClassOf(:Wheat ObjectSomeValuesFrom(:contains :Gluten))  )
