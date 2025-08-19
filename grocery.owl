@@ -43,4 +43,6 @@
 
  SubClassOf(:WheatFlour ObjectSomeValuesFrom(:contains :Wheat)) SubClassOf(:Wheat ObjectSomeValuesFrom(:contains :Gluten))
 
- TransitiveObjectProperty(:contains)  )
+ TransitiveObjectProperty(:contains)
+
+ Declaration(Class(:LotusBiscoffCookiesItem)) SubClassOf(:LotusBiscoffCookiesItem :GroceryItem) Declaration(Class(:BiscoffCookie)) SubClassOf(:BiscoffCookie :Cookie) SubClassOf(:LotusBiscoffCookiesItem ObjectSomeValuesFrom(:containsFoodStuff :BiscoffCookie))  )
