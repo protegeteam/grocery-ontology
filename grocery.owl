@@ -89,4 +89,6 @@
 
  SubObjectPropertyOf(ObjectPropertyChain(:isMadeIn :isLocatedIn) :isMadeIn)
 
- Declaration(Class(:Place)) ObjectPropertyDomain(:isLocatedIn :Place)  )
+ Declaration(Class(:Place)) ObjectPropertyDomain(:isLocatedIn :Place)
+
+ ObjectPropertyDomain(:hasIngredient :FoodStuff)  )
