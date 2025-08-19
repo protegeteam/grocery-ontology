@@ -31,4 +31,6 @@
 
  SubClassOf(:Cookie :FoodStuff) SubClassOf(:Shortbread :Cookie) SubClassOf(:WalkersShortbread :Shortbread) AnnotationAssertion(rdfs:comment :WalkersShortbread "Shortbread made to the Walkers recipe.") Declaration(ObjectProperty(:containsFoodStuff)) Declaration(Class(:Shortbread)) Declaration(Class(:WalkersShortbread))
 
- SubClassOf(:WalkersShortbreadItem ObjectSomeValuesFrom(:containsFoodStuff :WalkersShortbread))  )
+ SubClassOf(:WalkersShortbreadItem ObjectSomeValuesFrom(:containsFoodStuff :WalkersShortbread))
+
+ Declaration(ObjectProperty(:hasIngredient))  )
