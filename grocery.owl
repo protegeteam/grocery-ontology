@@ -45,4 +45,6 @@
 
  TransitiveObjectProperty(:contains)
 
- Declaration(Class(:LotusBiscoffCookiesItem)) SubClassOf(:LotusBiscoffCookiesItem :GroceryItem) Declaration(Class(:BiscoffCookie)) SubClassOf(:BiscoffCookie :Cookie) SubClassOf(:LotusBiscoffCookiesItem ObjectSomeValuesFrom(:containsFoodStuff :BiscoffCookie))  )
+ Declaration(Class(:LotusBiscoffCookiesItem)) SubClassOf(:LotusBiscoffCookiesItem :GroceryItem) Declaration(Class(:BiscoffCookie)) SubClassOf(:BiscoffCookie :Cookie) SubClassOf(:LotusBiscoffCookiesItem ObjectSomeValuesFrom(:containsFoodStuff :BiscoffCookie))
+
+ SubClassOf(:BiscoffCookie ObjectSomeValuesFrom(:hasIngredient :WheatFlour)) SubClassOf(:BiscoffCookie ObjectSomeValuesFrom(:hasIngredient :BrownSugar)) SubClassOf(:BiscoffCookie ObjectSomeValuesFrom(:hasIngredient :SodiumBicarbonate)) SubClassOf(:BiscoffCookie ObjectSomeValuesFrom(:hasIngredient :SoyFlour)) SubClassOf(:BiscoffCookie ObjectSomeValuesFrom(:hasIngredient :Salt)) SubClassOf(:BiscoffCookie ObjectSomeValuesFrom(:hasIngredient :Cinnamon))  )
