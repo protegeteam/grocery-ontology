@@ -75,4 +75,6 @@
 
  Declaration(Class(:Store)) Declaration(Class(:HardwareStore)) Declaration(NamedIndividual(:WholeFoodsPaloAlto)) SubClassOf(:HardwareStore :Store) ClassAssertion(:Store :WholeFoodsPaloAlto)
 
- Declaration(ObjectProperty(:isMadeIn)) Declaration(Class(:Country)) Declaration(NamedIndividual(:Belgium)) ClassAssertion(:Country :Belgium) SubClassOf(:LotusBiscoffCookiesItem ObjectHasValue(:isMadeIn :Belgium))  )
+ Declaration(ObjectProperty(:isMadeIn)) Declaration(Class(:Country)) Declaration(NamedIndividual(:Belgium)) ClassAssertion(:Country :Belgium) SubClassOf(:LotusBiscoffCookiesItem ObjectHasValue(:isMadeIn :Belgium))
+
+ Declaration(NamedIndividual(:Canada)) ClassAssertion(:Country :Canada) SubClassOf(:MallomarsCookiesPureChocolateItem ObjectHasValue(:isMadeIn :Canada))  )
