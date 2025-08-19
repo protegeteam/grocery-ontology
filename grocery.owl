@@ -35,4 +35,6 @@
 
  Declaration(ObjectProperty(:hasIngredient))
 
- SubClassOf(:WalkersShortbread ObjectSomeValuesFrom(:hasIngredient :Butter)) SubClassOf(:WalkersShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteSugar)) SubClassOf(:WalkersShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteFlour)) SubClassOf(:WalkersShortbread ObjectSomeValuesFrom(:hasIngredient :Salt))  )
+ SubClassOf(:WalkersShortbread ObjectSomeValuesFrom(:hasIngredient :Butter)) SubClassOf(:WalkersShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteSugar)) SubClassOf(:WalkersShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteFlour)) SubClassOf(:WalkersShortbread ObjectSomeValuesFrom(:hasIngredient :Salt))
+
+ Declaration(ObjectProperty(:contains)) SubObjectPropertyOf(:containsFoodStuff :contains)  )
