@@ -95,4 +95,6 @@
 
  ObjectPropertyRange(:isLocatedIn :Place)
 
- Declaration(DataProperty(:hasTotalFat)) Declaration(DataProperty(:hasSaturatedFat)) Declaration(DataProperty(:hasSodium)) Declaration(DataProperty(:hasSugar)) Declaration(ObjectProperty(:hasNutritionalInfo))  )
+ Declaration(DataProperty(:hasTotalFat)) Declaration(DataProperty(:hasSaturatedFat)) Declaration(DataProperty(:hasSodium)) Declaration(DataProperty(:hasSugar)) Declaration(ObjectProperty(:hasNutritionalInfo))
+
+ Declaration(NamedIndividual(:WalkersShortbreadFingersBoxNutritionalInformation)) ClassAssertion(:NutritionalInformation :WalkersShortbreadFingersBoxNutritionalInformation) DataPropertyAssertion(:hasTotalFat :WalkersShortbreadFingersBoxNutritionalInformation "6.0"^^xsd:decimal) DataPropertyAssertion(:hasSaturatedFat :WalkersShortbreadFingersBoxNutritionalInformation "4.0"^^xsd:decimal) DataPropertyAssertion(:hasSodium :WalkersShortbreadFingersBoxNutritionalInformation "50.0"^^xsd:decimal) DataPropertyAssertion(:hasSugar :WalkersShortbreadFingersBoxNutritionalInformation "3.0"^^xsd:decimal) SubClassOf(:WalkersShortbreadFingersBox ObjectHasValue(:hasNutritionalInfo :WalkersShortbreadFingersBoxNutritionalInformation))  )
