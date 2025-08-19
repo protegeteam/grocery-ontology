@@ -1,0 +1,8 @@
+ Prefix(:=<http://protege.stanford.edu/ontologies/groceries/>)
+ Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+ Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
+ Prefix(dcterms:=<http://purl.org/dc/terms/>)
+ Prefix(schema:=<http://schema.org/>)
+ Ontology(<http://protege.stanford.edu/ontologies/groceries>
+
+ Declaration(Class(:GroceryItem)) Declaration(Class(:FoodStuff)) Declaration(Class(:NutritionalInformation))  )
