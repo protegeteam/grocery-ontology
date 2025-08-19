@@ -101,4 +101,6 @@
 
  Declaration(NamedIndividual(:LotusBiscoffCookiesItemNutritionalInformation)) ClassAssertion(:NutritionalInformation :LotusBiscoffCookiesItemNutritionalInformation) DataPropertyAssertion(:hasTotalFat :LotusBiscoffCookiesItemNutritionalInformation "6.0"^^xsd:decimal) DataPropertyAssertion(:hasSaturatedFat :LotusBiscoffCookiesItemNutritionalInformation "3.0"^^xsd:decimal) DataPropertyAssertion(:hasSodium :LotusBiscoffCookiesItemNutritionalInformation "120.0"^^xsd:decimal) DataPropertyAssertion(:hasSugar :LotusBiscoffCookiesItemNutritionalInformation "12.0"^^xsd:decimal) SubClassOf(:LotusBiscoffCookiesItem ObjectHasValue(:hasNutritionalInfo :LotusBiscoffCookiesItemNutritionalInformation))
 
- EquivalentClasses(:GroceryItemThatIsLowInSodium ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:hasNutritionalInfo DataSomeValuesFrom(:hasSodium DatatypeRestriction(xsd:decimal xsd:maxInclusive "140.0"^^xsd:decimal)))))  )
+ EquivalentClasses(:GroceryItemThatIsLowInSodium ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:hasNutritionalInfo DataSomeValuesFrom(:hasSodium DatatypeRestriction(xsd:decimal xsd:maxInclusive "140.0"^^xsd:decimal)))))
+
+ EquivalentClasses(:GroceryItemThatIsVeryLowInSodium ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:hasNutritionalInfo DataSomeValuesFrom(:hasSodium DatatypeRestriction(xsd:decimal xsd:maxInclusive "35.0"^^xsd:decimal)))))  )
