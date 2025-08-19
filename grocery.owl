@@ -87,4 +87,6 @@
 
  TransitiveObjectProperty(:isLocatedIn)
 
- SubObjectPropertyOf(ObjectPropertyChain(:isMadeIn :isLocatedIn) :isMadeIn)  )
+ SubObjectPropertyOf(ObjectPropertyChain(:isMadeIn :isLocatedIn) :isMadeIn)
+
+ Declaration(Class(:Place)) ObjectPropertyDomain(:isLocatedIn :Place)  )
