@@ -5,4 +5,6 @@
  Prefix(schema:=<http://schema.org/>)
  Ontology(<http://protege.stanford.edu/ontologies/groceries>
 
- Declaration(Class(:GroceryItem)) Declaration(Class(:FoodStuff)) Declaration(Class(:NutritionalInformation))  )
+ Declaration(Class(:GroceryItem)) Declaration(Class(:FoodStuff)) Declaration(Class(:NutritionalInformation))
+
+ Declaration(Class(:WalkersShortbreadItem)) Declaration(Class(:GroceryItem)) Declaration(Class(:WalkersShortbreadFingersBox)) Declaration(Class(:WalkersShortbreadRoundsBox)) SubClassOf(:WalkersShortbreadItem :GroceryItem) SubClassOf(:WalkersShortbreadFingersBox :WalkersShortbreadItem) SubClassOf(:WalkersShortbreadRoundsBox :WalkersShortbreadItem)  )
