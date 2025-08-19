@@ -19,4 +19,6 @@
 
  Declaration(AnnotationProperty(skos:altLabel)) AnnotationAssertion(skos:altLabel :SodiumBicarbonate "Baking Soda"@en)
 
- AnnotationAssertion(skos:altLabel :SodiumBicarbonate "Backpulver"@de)  )
+ AnnotationAssertion(skos:altLabel :SodiumBicarbonate "Backpulver"@de)
+
+ Declaration(AnnotationProperty(foaf:depiction)) AnnotationAssertion(foaf:depiction :SodiumBicarbonate <https://imgur.com/rKr2e6v.jpg>)  )
