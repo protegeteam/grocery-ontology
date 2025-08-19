@@ -105,4 +105,6 @@
 
  EquivalentClasses(:GroceryItemThatIsVeryLowInSodium ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:hasNutritionalInfo DataSomeValuesFrom(:hasSodium DatatypeRestriction(xsd:decimal xsd:maxInclusive "35.0"^^xsd:decimal)))))
 
- EquivalentClasses(:GroceryItemThatIsHighInSodium ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:hasNutritionalInfo DataSomeValuesFrom(:hasSodium DatatypeRestriction(xsd:decimal xsd:minInclusive "480.0"^^xsd:decimal)))))  )
+ EquivalentClasses(:GroceryItemThatIsHighInSodium ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:hasNutritionalInfo DataSomeValuesFrom(:hasSodium DatatypeRestriction(xsd:decimal xsd:minInclusive "480.0"^^xsd:decimal)))))
+
+ FunctionalDataProperty(:hasTotalFat) FunctionalDataProperty(:hasSaturatedFat) FunctionalDataProperty(:hasSodium) FunctionalDataProperty(:hasSugar) FunctionalObjectProperty(:hasNutritionalInfo)  )
