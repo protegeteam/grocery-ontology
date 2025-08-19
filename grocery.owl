@@ -61,4 +61,6 @@
 
  SubClassOf(:SoyLecithin ObjectSomeValuesFrom(:contains :Soy)) SubClassOf(:SoyFlour ObjectSomeValuesFrom(:contains :Soy)) SubClassOf(:SoyBeanOil ObjectSomeValuesFrom(:contains :Soy))
 
- Declaration(Class(:GroceryItemThatContainsSoy)) EquivalentClasses(:GroceryItemThatContainsSoy ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:contains :Soy)))  )
+ Declaration(Class(:GroceryItemThatContainsSoy)) EquivalentClasses(:GroceryItemThatContainsSoy ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:contains :Soy)))
+
+ Declaration(Class(:GroceryItemThatContainsWheat)) EquivalentClasses(:GroceryItemThatContainsWheat ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:contains :Wheat)))  )
