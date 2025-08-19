@@ -91,4 +91,6 @@
 
  Declaration(Class(:Place)) ObjectPropertyDomain(:isLocatedIn :Place)
 
- ObjectPropertyDomain(:hasIngredient :FoodStuff)  )
+ ObjectPropertyDomain(:hasIngredient :FoodStuff)
+
+ ObjectPropertyRange(:isLocatedIn :Place)  )
