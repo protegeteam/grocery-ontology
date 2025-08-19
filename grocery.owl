@@ -77,4 +77,6 @@
 
  Declaration(ObjectProperty(:isMadeIn)) Declaration(Class(:Country)) Declaration(NamedIndividual(:Belgium)) ClassAssertion(:Country :Belgium) SubClassOf(:LotusBiscoffCookiesItem ObjectHasValue(:isMadeIn :Belgium))
 
- Declaration(NamedIndividual(:Canada)) ClassAssertion(:Country :Canada) SubClassOf(:MallomarsCookiesPureChocolateItem ObjectHasValue(:isMadeIn :Canada))  )
+ Declaration(NamedIndividual(:Canada)) ClassAssertion(:Country :Canada) SubClassOf(:MallomarsCookiesPureChocolateItem ObjectHasValue(:isMadeIn :Canada))
+
+ Declaration(NamedIndividual(:Aberlour)) SubClassOf(:WalkersShortbreadItem ObjectHasValue(:isMadeIn :Aberlour))  )
