@@ -81,4 +81,6 @@
 
  Declaration(NamedIndividual(:Aberlour)) SubClassOf(:WalkersShortbreadItem ObjectHasValue(:isMadeIn :Aberlour))
 
- Declaration(NamedIndividual(:Speyside)) Declaration(NamedIndividual(:Scotland)) ClassAssertion(:Country :Scotland) Declaration(ObjectProperty(:isLocatedIn)) ObjectPropertyAssertion(:isLocatedIn :Aberlour :Speyside) ObjectPropertyAssertion(:isLocatedIn :Speyside :Scotland) Declaration(NamedIndividual(:GreatBritain)) ObjectPropertyAssertion(:isLocatedIn :Scotland :GreatBritain)  )
+ Declaration(NamedIndividual(:Speyside)) Declaration(NamedIndividual(:Scotland)) ClassAssertion(:Country :Scotland) Declaration(ObjectProperty(:isLocatedIn)) ObjectPropertyAssertion(:isLocatedIn :Aberlour :Speyside) ObjectPropertyAssertion(:isLocatedIn :Speyside :Scotland) Declaration(NamedIndividual(:GreatBritain)) ObjectPropertyAssertion(:isLocatedIn :Scotland :GreatBritain)
+
+ Declaration(Class(:Continent)) Declaration(NamedIndividual(:Europe)) ClassAssertion(:Continent :Europe) Declaration(NamedIndividual(:NorthAmerica)) ClassAssertion(:Continent :NorthAmerica) ObjectPropertyAssertion(:isLocatedIn :GreatBritain :Europe) ObjectPropertyAssertion(:isLocatedIn :Belgium :Europe) ObjectPropertyAssertion(:isLocatedIn :Canada :NorthAmerica)  )
