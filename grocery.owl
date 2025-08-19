@@ -71,4 +71,6 @@
 
  Declaration(Class(:GroceryItemThatContainsNuts)) EquivalentClasses(:GroceryItemThatContainsNuts ObjectIntersectionOf(:GroceryItem ObjectSomeValuesFrom(:contains :NutProduct)))
 
- Declaration(Class(:SemolinaShortbread)) SubClassOf(:SemolinaShortbread :Shortbread) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Butter)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteSugar)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteFlour)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Semolina)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Salt))  )
+ Declaration(Class(:SemolinaShortbread)) SubClassOf(:SemolinaShortbread :Shortbread) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Butter)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteSugar)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :WhiteFlour)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Semolina)) SubClassOf(:SemolinaShortbread ObjectSomeValuesFrom(:hasIngredient :Salt))
+
+ Declaration(Class(:Store)) Declaration(Class(:HardwareStore)) Declaration(NamedIndividual(:WholeFoodsPaloAlto)) SubClassOf(:HardwareStore :Store) ClassAssertion(:Store :WholeFoodsPaloAlto)  )
