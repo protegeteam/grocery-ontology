@@ -13,4 +13,6 @@
 
  AnnotationAssertion(rdfs:label :SodiumBicarbonate "Sodium Bicarbonate"@en)
 
- AnnotationAssertion(rdfs:label :SodiumBicarbonate "Bicarbonato de Sodio"@es) AnnotationAssertion(rdfs:label :SodiumBicarbonate "Natriumbicarbonat"@de)  )
+ AnnotationAssertion(rdfs:label :SodiumBicarbonate "Bicarbonato de Sodio"@es) AnnotationAssertion(rdfs:label :SodiumBicarbonate "Natriumbicarbonat"@de)
+
+ AnnotationAssertion(rdfs:seeAlso :SodiumBicarbonate <https://en.wikipedia.org/wiki/Sodium_bicarbonate>)  )
