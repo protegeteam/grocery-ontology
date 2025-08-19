@@ -93,4 +93,6 @@
 
  ObjectPropertyDomain(:hasIngredient :FoodStuff)
 
- ObjectPropertyRange(:isLocatedIn :Place)  )
+ ObjectPropertyRange(:isLocatedIn :Place)
+
+ Declaration(DataProperty(:hasTotalFat)) Declaration(DataProperty(:hasSaturatedFat)) Declaration(DataProperty(:hasSodium)) Declaration(DataProperty(:hasSugar)) Declaration(ObjectProperty(:hasNutritionalInfo))  )
